@@ -1,8 +1,12 @@
+* {
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
 .header {
     text-align: center;
 }
 .navbar {
-    background-color: #F1F1F1;
+    background-color: #87ceeb;
     overflow: hidden;
 }
 .navbar a {
@@ -14,14 +18,15 @@
     text-decoration: none;
 }
 .navbar a:hover {
-    background-color: #ddd;
+    background-color: #CC5500;
     color: black;
 }
 body {
     margin: 0;
+    background-color: #E3735E;
 }
 .main-content {
-    background-color: aqua;
+    background-color: white;
 }
 .column {
     float: left;
@@ -34,12 +39,7 @@ body {
     clear: both;
 }
 .footer {
-    background-color: #f1f1f1;
+    background-color: #87CEEB;
     padding: 10px;
     text-align: center;
-}
-@media screen and (max-width: 1000px) {
-    .column {
-        width: 50%;
-    }
 }
