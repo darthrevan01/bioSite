@@ -43,3 +43,12 @@ body {
     padding: 10px;
     text-align: center;
 }
+.footer a {
+    text-decoration: none;
+}
+div.column img {
+    width: 200%;
+}
+div.column figcaption {
+    display: block;
+}

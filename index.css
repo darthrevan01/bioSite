@@ -43,3 +43,12 @@ body {
     padding: 10px;
     text-align: center;
 }
+.fav-hob img {
+    width: 20%;
+}
+figcaption {
+    text-align: center;
+}
+.footer a {
+    text-decoration: none;
+}
